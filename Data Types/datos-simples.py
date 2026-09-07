@@ -1,34 +1,83 @@
 # tipo de datos de texto o cadena de texto
 
-# son esto  
+# los strings sirven para guardar texto
 
-# "strings" # cadena de texto
+nombre = "Jeancarlos"
+apellido = 'Garcia'
 
-# 'strings' # cadena de texto
+print(nombre)
+print(apellido)
 
-# '''strings''' # cadena de texto
+# tambien se puede usar tres comillas para escribir varias lineas
 
-# """strings""" # cadena de texto
-
-"""tus datos son:
-nombre: jan carlos
-apellido: garcias
+datos = """mis datos son:
+nombre: Jeancarlos
+apellido: Garcia
 edad: 20
-correo:chuponfs 123
-ciudad: santo domingo oeste
+ciudad: Santo Domingo
 """
+
+print(datos)
 
 # tipo de datos numericos
 
-# int #numeros enteros 40
+# int son numeros enteros
 
-# float #numeros con coma 40.2
+edad = 20
+numero = 40
 
-# boolean # true o false
+print(edad)
+print(numero)
 
+# float son numeros con decimales
 
+altura = 1.75
+precio = 40.2
 
-40
+print(altura)
+print(precio)
 
-40.2
+# boolean sirve para decir si algo es verdadero o falso
 
+# True = verdadero
+
+# False = falso
+
+estudiando = True
+tengo_carro = False
+
+print(estudiando)
+print(tengo_carro)
+
+# none es cuando la variable no tiene ningun valor
+
+resultado = None
+
+print(resultado)
+
+# con type puedo saber que tipo de dato tiene la variable
+
+print(type(nombre))
+print(type(edad))
+print(type(altura))
+print(type(estudiando))
+print(type(resultado))
+
+# ejercicio
+
+mi_nombre = "Jeancarlos"
+mi_edad = 20
+mi_altura = 1.75
+estoy_aprendiendo = True
+
+print(mi_nombre)
+print(mi_edad)
+print(mi_altura)
+print(estoy_aprendiendo)
+
+# ver los tipos
+
+print(type(mi_nombre))
+print(type(mi_edad))
+print(type(mi_altura))
+print(type(estoy_aprendiendo))
