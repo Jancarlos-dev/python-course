@@ -59,3 +59,33 @@ print(type(nombre))
 print(type(edad))
 print(type(altura))
 print(type(estudiando))
+
+
+
+
+
+
+# snake_case
+# se usa para escribir nombres de variables con varias palabras
+
+nombre_completo = "adrian sanchez"
+
+
+# + sirve para unir textos
+
+bienvenida = "Hola " + nombre_completo
+
+
+# f-string permite meter variables dentro de un texto
+
+bienvenida = f"Hola {nombre_completo}"
+
+
+# in pregunta si algo esta dentro de otra cosa
+
+print("adrian" in nombre_completo)  # True
+
+
+# not in pregunta si algo NO esta dentro
+
+print("pedro" not in nombre_completo)  # True
